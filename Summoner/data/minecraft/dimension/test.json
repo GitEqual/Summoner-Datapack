@@ -1,0 +1,14 @@
+{
+ "type": "minecraft:test",
+ "generator": {
+     "type": "noise",
+     "biome_source": {
+         "seed": 0,
+         "large_biomes": false,
+         "type": "fixed",
+         "biome": "test"
+     },
+     "seed": 0,
+     "settings": "minecraft:overworld"
+ }
+}

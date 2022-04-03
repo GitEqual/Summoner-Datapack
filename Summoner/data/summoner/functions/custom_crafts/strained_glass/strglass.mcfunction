@@ -1,0 +1,9 @@
+execute at @e[type=minecraft:item,nbt={Item:{tag:{Tags:[hg]}}}] if entity @e[type=item,distance=..0.5] run particle cloud ~ ~ ~ 0.1 0.1 0.1 1 10
+execute at @e[type=minecraft:item,nbt={Item:{tag:{Tags:[hg]}}}] if entity @e[type=item,distance=..0.5] run playsound block.lava.extinguish master @a ~ ~ ~ 100
+execute as @e[type=minecraft:item,nbt={Item:{tag:{Tags:[hotglass]}}}] if entity @e[type=item,distance=..0.5] run data merge entity @s {Item:{id:"minecraft:glass",Count:1b,tag:{Enchantments:[{}],display:{Name:'[{"text":"Pure Strained Glass","color":"#902828"}]'},Tags:["strglass1","strglass"]}},Motion:[0.0,0.3,0.0],PickupDelay:40}
+execute as @e[type=minecraft:item,nbt={Item:{tag:{Tags:[-hotglass]}}}] run data merge entity @s {Item:{id:"minecraft:glass",Count:1b,tag:{Enchantments:[{}],display:{Name:'[{"text":"Awesome Strained Glass","color":"#902828"}]'},Tags:["strglass2","strglass"]}},Motion:[0.0,0.3,0.0],PickupDelay:40}
+execute as @e[type=minecraft:item,nbt={Item:{tag:{Tags:[--hotglass]}}}] run data merge entity @s {Item:{id:"minecraft:glass",Count:1b,tag:{Enchantments:[{}],display:{Name:'[{"text":"Strained Glass","color":"#902828"}]'},Tags:["strglass3","strglass"]}},Motion:[0.0,0.3,0.0],PickupDelay:40}
+execute as @e[type=minecraft:item,nbt={Item:{tag:{Tags:[---hotglass]}}}] run data merge entity @s {Item:{id:"minecraft:glass",Count:1b,tag:{Enchantments:[{}],display:{Name:'[{"text":"Cloudy Strained Glass","color":"#902828"}]'},Tags:["strglass4","strglass"]}},Motion:[0.0,0.3,0.0],PickupDelay:40}
+execute at @e[type=minecraft:item,nbt={Item:{tag:{Tags:[hg]}}}] if entity @e[type=item,distance=..0.5] if block ~ ~ ~ water run setblock ~ ~ ~ water[level=15]
+execute as @e[type=minecraft:item,nbt={Item:{tag:{Tags:[hg]}}},limit=1] if entity @e[type=item,distance=..0.5] run kill @s
+

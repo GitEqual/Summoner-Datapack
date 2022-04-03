@@ -1,0 +1,1 @@
+execute as @s at @s run summon item ~ ~ ~ {Item:{id:"minecraft:music_disc_11", Count:1b, tag:{CustomModelData:1, HideFlags:64, display:{Lore:['[{"text":"Lifeformed - Frozen Hot Sauce","italic":false,"color":"gray"}]']}}}}
