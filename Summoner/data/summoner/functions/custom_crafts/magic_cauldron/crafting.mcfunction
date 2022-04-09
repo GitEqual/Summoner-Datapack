@@ -1,0 +1,9 @@
+execute as @e[type=minecraft:armor_stand,tag=craft_c1] if score @s Timer matches 100.. run tag @s add craft_c1done
+execute as @e[type=minecraft:armor_stand,tag=craft_c2] if score @s Timer matches 100.. run tag @s add craft_c2done
+execute as @e[type=minecraft:armor_stand,tag=craft_c3] if score @s Timer matches 100.. run tag @s add craft_c3done
+execute as @e[type=minecraft:armor_stand,tag=craft_c4] if score @s Timer matches 100.. run tag @s add craft_c4done
+execute as @e[type=minecraft:armor_stand,tag=craft_c5] if score @s Timer matches 100.. run tag @s add craft_c5done
+execute as @e[type=minecraft:armor_stand,tag=craft_c6] if score @s Timer matches 100.. run tag @s add craft_c6done
+execute as @e[type=minecraft:armor_stand,tag=craft_c7] if score @s Timer matches 100.. run tag @s add craft_c7done
+execute as @e[type=minecraft:armor_stand,tag=craft_c8] if score @s Timer matches 100.. run tag @s add craft_c8done
+execute as @e[type=minecraft:armor_stand,tag=craft_c9] if score @s Timer matches 100.. run tag @s add craft_c9done

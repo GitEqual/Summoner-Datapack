@@ -1,0 +1,19 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "item/firework_star"
+	},
+	"overrides": [
+		{ "predicate": {"custom_model_data": 1001}, "model": "item/pure_prism"},
+		{ "predicate": {"custom_model_data": 1002}, "model": "item/awesome_prism"},
+		{ "predicate": {"custom_model_data": 1003}, "model": "item/prism"},
+		{ "predicate": {"custom_model_data": 1004}, "model": "item/cloudy_prism"},
+		{ "predicate": {"custom_model_data": 1005}, "model": "item/manifaction_cell1_empty"},
+		{ "predicate": {"custom_model_data": 1006}, "model": "item/absorption_blend"},
+		{ "predicate": {"custom_model_data": 1007}, "model": "item/bottle_of_void"},
+		{ "predicate": {"custom_model_data": 1008}, "model": "item/void_vessel"},
+		{ "predicate": {"custom_model_data": 1009}, "model": "item/void_vessel_filled"},
+		{ "predicate": {"custom_model_data": 1010}, "model": "item/air"}
+
+	]
+}

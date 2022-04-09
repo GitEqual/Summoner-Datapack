@@ -1,0 +1,65 @@
+{
+  "depth": 0.1,
+  "scale": 0.1,
+  "precipitation": "snow",
+  "category": "icy",
+  "temperature": 0.0,
+  "temperature_modifier": "frozen",
+  "downfall": 0.5,
+  "player_spawn_friendly": false,
+  "creature_spawn_probability": 0.3,
+  "effects": {
+   "mood_sound": {
+     "sound": "minecraft:ambient.crimson_forest.mood",
+     "block_search_extent": 8,
+     "offset": 2.0,
+     "tick_delay": 600
+   },
+    "music": {
+     "max_delay": 24000,
+     "min_delay": 12000,
+     "replace_current_music": false,
+     "sound": "minecraft:music.nether.crimson_forest"
+    },
+   "additions_sound": {
+     "sound": "minecraft:ambient.crimson_forest.additions",
+     "tick_chance": 0.0111
+   },
+   "ambient_sound": "minecraft:ambient.crimson_forest.loop",
+   "grass_color_modifier": "swamp",
+   "fog_color": 7935,
+   "sky_color": 8388863,
+   "water_color": 13421772,
+   "water_fog_color": 0,
+   "grass_color": 10856448,
+   "foliage_color": 8741120,
+   "particle": {
+     "options": {
+       "type": "minecraft:ash"
+     },
+     "probability": 1
+   }
+  },
+ "carvers": {
+   "air": [
+       "minecraft:cave",
+       "minecraft:canyon",
+       "minecraft:nether_cave"
+   ]
+ },
+ "spawners": {
+   "underground_water_creature": [
+       {
+           "type": "minecraft:bat",
+           "weight": 1,
+           "maxCount": 10,
+           "minCount": 0
+       }
+   ]
+ },
+ "features": [
+
+],
+ "spawn_costs": {},
+ "surface_builder": "minecraft:test"
+}

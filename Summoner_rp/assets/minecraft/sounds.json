@@ -1,0 +1,14 @@
+{
+	"summoner.glaugor_explosion":
+	{"category": "master","sounds": [{"name": "summoner/glaugor_explosion","stream": true}]},
+
+	"summoner.hole_ost":
+	{"category": "master","sounds": [{"name": "summoner/hole_ost","stream": true}]},
+
+	"summoner.hole_far_ost":
+	{"category": "master","sounds": [{"name": "summoner/hole_far_ost","stream": false}]},
+
+	"summoner.lifeformedfrozenhotsauce":
+	{"category": "master","sounds": [{"name": "summoner/lifeformedfrozenhotsauce","stream": true}]}
+
+}
